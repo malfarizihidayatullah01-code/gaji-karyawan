@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f7fb;
+
+    font-family: "Segoe UI", sans-serif;
+}
+
+/**
+ * Sidebar
+ */
+.sidebar {
+    width: 240px;
+
+    height: 100vh;
+
+    position: fixed;
+
+    left: 0;
+
+    top: 0;
+
+    background: linear-gradient(180deg, #0d6efd, #20c997);
+
+    padding-top: 20px;
+
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/**
+ * Logo
+ */
+.logo {
+    color: white;
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+/**
+ * Menu
+ */
+.sidebar a {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 14px 20px;
+
+    color: white;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+
+    margin: 5px 10px;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+}
+
+/**
+ * Hover
+ */
+.sidebar a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/**
+ * Active menu
+ */
+.sidebar a.active {
+    background: white;
+
+    color: #0d6efd;
+
+    font-weight: bold;
+}
+
+/**
+ * Content
+ */
+.content {
+    margin-left: 240px;
+
+    padding: 30px;
+}
+
+/**
+ * Dashboard Card
+ */
+.dashboard-card {
+    border: none;
+
+    border-radius: 15px;
+
+    color: white;
+
+    padding: 25px;
+
+    transition: 0.3s;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/**
+ * Hover card
+ */
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+/**
+ * Biru
+ */
+.bg-biru {
+    background: linear-gradient(135deg, #0d6efd, #4dabf7);
+}
+
+/**
+ * Hijau
+ */
+.bg-hijau {
+    background: linear-gradient(135deg, #198754, #20c997);
+}
+
+/**
+ * Card
+ */
+.card {
+    border: none;
+
+    border-radius: 15px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/**
+ * Table
+ */
+.table thead {
+    background: #0d6efd;
+
+    color: white;
+}
+
+/**
+ * Button
+ */
+.btn-primary {
+    background: #0d6efd;
+
+    border: none;
+}
+
+.btn-success {
+    background: #20c997;
+
+    border: none;
+}
