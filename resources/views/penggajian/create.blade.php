@@ -223,7 +223,7 @@
 </div>
 
 <!-- JQuery -->
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="{{ asset('js/jquery.min.js') }}"></script>
 
 <!-- AJAX -->
 <script>
@@ -298,7 +298,7 @@
     /**
      * Ketika jam lembur berubah
      */
-    $('#jam_lembur').keyup(function(){
+    $('#jam_lembur').on('keyup change', function(){
 
         // Ambil jam
         let jam =

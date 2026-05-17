@@ -153,6 +153,15 @@
 
     </a>
 
+    <!-- Logout -->
+    <form action="/logout" method="POST">
+        @csrf
+        <button type="submit" class="sidebar-logout">
+            <i class="bi bi-box-arrow-left"></i>
+            Logout
+        </button>
+    </form>
+
 </div>
 
 <!-- Content -->

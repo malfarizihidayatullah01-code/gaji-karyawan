@@ -2,9 +2,6 @@
 
 @section('content')
 
-<!-- JQuery -->
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-
 <div class="container-fluid">
 
     <div class="d-flex justify-content-between mb-3">
@@ -220,6 +217,9 @@
     </div>
 
 </div>
+
+<!-- JQuery -->
+<script src="{{ asset('js/jquery.min.js') }}"></script>
 
 <script>
 
